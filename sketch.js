@@ -25,6 +25,7 @@ function setup() {
 function hearWord(error,results){
   if(results[0].label=="up"){
     player.jump();
+    console.log("up");
   }
 }
 
